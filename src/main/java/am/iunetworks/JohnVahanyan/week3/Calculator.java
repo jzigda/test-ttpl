@@ -1,4 +1,4 @@
-package am.iunetworks.week3;
+package am.iunetworks.JohnVahanyan.week3;
 
 public class Calculator {
 

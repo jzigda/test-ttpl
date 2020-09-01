@@ -1,4 +1,4 @@
-package am.iunetworks.week3;
+package am.iunetworks.JohnVahanyan.week3;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
@@ -46,7 +46,7 @@ public class Lottery {
     public static void main(String[] args) {
         List<Player> players = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
-            players.add(new Player(i + 1 + ""));
+//            players.add(new Player(i + 1 + ""));
         }
         Player winner = start(players);
     }

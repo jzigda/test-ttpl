@@ -1,8 +1,7 @@
-package am.iunetworks.week3;
+package am.iunetworks.JohnVahanyan.week3;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class Battle {
@@ -10,7 +9,7 @@ public class Battle {
         List<Player> players = new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
-            players.add(new Player(i + 1 + "", (int) (Math.random() * 100), (int) (Math.random() * 100)));
+//            players.add(new Player(i + 1 + "", (int) (Math.random() * 100), (int) (Math.random() * 100)));
         }
         start(players);
     }
@@ -19,12 +18,12 @@ public class Battle {
         while (players.size() != 1) {
             List<Player> deadPlayersThatNeedToRemove = new ArrayList<>();
             for (int i = 0; i < players.size() - 1; i++) {
-                Player deadPlayer = fightAndReturnDeadPlayer(players.get(i), players.get(i + 1));
-                deadPlayersThatNeedToRemove.add(deadPlayer);
+//                Player deadPlayer = fightAndReturnDeadPlayer(players.get(i), players.get(i + 1));
+//                deadPlayersThatNeedToRemove.add(deadPlayer);
             }
             players.removeAll(deadPlayersThatNeedToRemove);
         }
-        System.out.println(MessageFormat.format("Winner is: {0}", players.get(0)));
+//        System.out.println(MessageFormat.format("Winner is: {0}", players.get(0)));
     }
 
     private static Player fightAndReturnDeadPlayer(Player player1, Player player2) {
