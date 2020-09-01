@@ -1,7 +1,14 @@
 package am.iunetworks.KunzangNima.Quiz5.Q1;
 
-/**
- * Created by TTPLkn on 01-09-2020.
- */
+import java.io.FileInputStream;
 public class InputST {
+    public static void main(String args[]){
+        try{
+            FileInputStream fin=new FileInputStream("D:\\testout.txt");
+            int i=fin.read();
+            System.out.print((char)i);
+
+            fin.close();
+        }catch(Exception e){System.out.println(e);}
+    }
 }
