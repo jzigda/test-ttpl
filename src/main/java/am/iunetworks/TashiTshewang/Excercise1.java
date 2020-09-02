@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 public class Excercise1 {
     public static void main(String[] args) throws IOException {
-        File fread = new File("src\\main\\java\\am\\iunetworks\\TashiTshewang\\text.txt");
-        File fwrite = new File("src\\main\\java\\am\\iunetworks\\TashiTshewang\\text1.txt");
+        File fread = new File("src\\main\\java\\am\\iunetworks\\TashiTshewang\\input.txt");
+        File fwrite = new File("src\\main\\java\\am\\iunetworks\\TashiTshewang\\output.txt");
 
 
         FileInputStream fis = new FileInputStream(fread);
