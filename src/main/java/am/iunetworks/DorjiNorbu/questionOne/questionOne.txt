@@ -1,0 +1,5 @@
+John=Armenia
+Leo=Argentina
+Jigme=Bhutan
+……………….
+Anna=Russia
