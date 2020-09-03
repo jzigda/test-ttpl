@@ -1,0 +1,9 @@
+The result is string and custom collection sort
+
+Alisha:=India
+Anna:=Russia
+Dorji:=Bhutan
+Darji:=Bhutan
+John:=Armenia
+Jigme:=Bhutan
+Leo:=Argentina
