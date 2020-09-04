@@ -1,5 +1,10 @@
 package am.iunetworks.KunzangNima.Quiz5.Question9;
 
+import java.text.NumberFormat;
+import java.util.Locale;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
 /**
  * Created by TTPLkn on 02-09-2020.
  */
