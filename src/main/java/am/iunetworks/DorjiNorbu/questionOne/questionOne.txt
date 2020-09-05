@@ -1,0 +1,7 @@
+John=Armenia
+Leo=Argentina
+Jigme=Bhutan
+Dorji=Bhutan
+Anna=Russia
+Darji=Bhutan
+Alisha=India
